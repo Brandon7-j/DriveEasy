@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #101d35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.admin-login {
+    background: white;
+    padding: 35px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.admin-login h1 {
+    color: #101d35;
+    text-align: center;
+}
+
+.admin-login p {
+    text-align: center;
+}
+
+.admin-login label {
+    display: block;
+    margin-top: 15px;
+}
+
+.admin-login input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    box-sizing: border-box;
+}
+
+.admin-login button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #d6a63c;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+}
+.dashboard {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: #f4f6fa;
+}
+
+.sidebar {
+    width: 230px;
+    background: #101d35;
+    padding: 25px;
+    color: white;
+}
+
+.sidebar h2 span {
+    color: #d6a63c;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 5px;
+    margin-top: 10px;
+}
+
+.sidebar a:hover {
+    color: #d6a63c;
+}
+
+.main-content {
+    flex: 1;
+    padding: 35px;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.dashboard-card h3 {
+    color: #555;
+}
+
+.dashboard-card p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d6a63c;
+}
+
+@media (max-width: 700px) {
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: auto;
+    }
+
+    .dashboard-cards {
+        grid-template-columns: 1fr;
+    }
+}
+.admin-content {
+    background: #f4f6fa;
+    min-height: 100vh;
+    padding: 35px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.admin-content h1 {
+    color: #101d35;
+}
+
+.car-form {
+    background: white;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.car-form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.car-form input,
+.car-form select,
+.car-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    box-sizing: border-box;
+}
+
+.car-form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #d6a63c;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.success-message {
+    color: green;
+}
+
+.admin-content h2 {
+    margin-top: 30px;
+}
+.admin-content a {
+    color: #101d35;
+    text-decoration: none;
+}
+
+.admin-content a:hover {
+    color: #d6a63c;
+}
+
+.admin-content select,
+.admin-content button {
+    padding: 8px;
+    margin: 3px;
+}
+
+.admin-content button {
+    background: #d6a63c;
+    border: none;
+    cursor: pointer;
+}
+
+.admin-content table {
+    min-width: 800px;
+}
