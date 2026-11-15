@@ -12,33 +12,23 @@ DriveEasy is a web-based car rental management system developed using PHP and My
 
 ##### &#x20;Customer Features
 
-\- Customer registration and login.
-
-\- Browse available rental vehicles.
-
-\- View car details and rental prices.
-
-\- Book available vehicles.
-
-\- View personal booking history.
+1. &#x20;Customer registration and login.
+2. &#x20;Browse available rental vehicles.
+3. &#x20;View car details and rental prices.
+4. &#x20;Book available vehicles.
+5. &#x20;View personal booking history.
 
 ##### 
 
 ##### **Administrator Features**
 
-\- Secure administrator login.
-
-\- Dashboard displaying system statistics.
-
-\- Add, edit, and delete vehicle records.
-
-\- View registered customers.
-
-\- Manage customer bookings.
-
-\- Update booking statuses.
-
-\- View payment records.
+* &#x20;Secure administrator login.
+* &#x20;Dashboard displaying system statistics.
+* &#x20;Add, edit, and delete vehicle records.
+* &#x20;View registered customers.
+* &#x20;Manage customer bookings.
+* &#x20;Update booking statuses.
+* &#x20;View payment records.
 
 ##### 
 
