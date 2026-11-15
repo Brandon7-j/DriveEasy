@@ -1,16 +1,16 @@
-\# DriveEase Car Rental Management System
+# &#x20;***DriveEasy Car Rental Management System***
 
 
 
-DriveEase is a web-based car rental management system developed using PHP and MySQL. It provides a platform where customers can explore available vehicles, register accounts, and make car bookings. Administrators can manage vehicles, customers, bookings, and payment records.
+DriveEasy is a web-based car rental management system developed using PHP and MySQL. It provides a platform where customers can explore available vehicles, register accounts, and make car bookings. Administrators can manage vehicles, customers, bookings, and payment records.
+
+##### 
+
+##### **Features**
 
 
 
-\## Features
-
-
-
-\### Customer Features
+##### &#x20;Customer Features
 
 \- Customer registration and login.
 
@@ -22,9 +22,9 @@ DriveEase is a web-based car rental management system developed using PHP and My
 
 \- View personal booking history.
 
+##### 
 
-
-\### Administrator Features
+##### **Administrator Features**
 
 \- Secure administrator login.
 
@@ -40,29 +40,23 @@ DriveEase is a web-based car rental management system developed using PHP and My
 
 \- View payment records.
 
+##### 
 
-
-\## Technologies Used
-
-
-
-\- PHP
-
-\- MySQL
-
-\- HTML5
-
-\- CSS3
-
-\- JavaScript
-
-\- XAMPP
-
-\- Git and GitHub
+##### &#x20;Technologies Used
 
 
 
-\## Installation and Setup
+1. &#x20;PHP
+2. &#x20;MySQL
+3. &#x20;HTML5
+4. &#x20;CSS3
+5. &#x20;JavaScript
+6. &#x20;XAMPP
+7. &#x20;Git and GitHub
+
+
+
+##### Installation and Setup
 
 
 
@@ -72,11 +66,11 @@ DriveEase is a web-based car rental management system developed using PHP and My
 
 
 
-&#x20;  ```bash
+&#x20;  bash
 
-&#x20;  git clone https://github.com/Brandon7-j/DriveEasy.git
+&#x20;  git clone https://github.com/YOUR USERNAME/DriveEasy.git
 
-&#x20;  ```
+&#x20;  
 
 
 
@@ -102,9 +96,9 @@ DriveEase is a web-based car rental management system developed using PHP and My
 
 &#x20;  `http://localhost/driveeasy/`
 
+##### 
 
-
-\## Database Tables
+##### &#x20;Database Tables
 
 
 
@@ -112,25 +106,20 @@ The system uses the following database tables:
 
 
 
-\- users
-
-\- categories
-
-\- cars
-
-\- bookings
-
-\- payments
-
-\- reviews
+* &#x20;users
+* &#x20;categories
+* &#x20;cars
+* &#x20;bookings
+* &#x20;payments
+* &#x20;reviews
 
 
 
-\## Project Structure
+##### Project Structure
 
 
 
-```text
+text
 
 driveeasy/
 
@@ -170,11 +159,11 @@ driveeasy/
 
 └── register.php
 
-```
 
 
 
-\## Project Status
+
+##### Project Status
 
 
 
@@ -186,11 +175,11 @@ Payment records can be managed, but live payment gateway integration is not curr
 
 
 
-\## Developer
+Developer
 
 
 
-\*\*Brandon7-j\*\*
+Brandon7-j
 
 
 
