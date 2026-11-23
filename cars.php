@@ -35,20 +35,15 @@ $cars = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             <?php foreach ($cars as $car): ?>
 
-                <div class="car-card">
+               <div class="car-card">
 
-             <img
-    src="<?php echo htmlspecialchars($car['image']); ?>"
-    alt="<?php echo htmlspecialchars($car['brand'] . ' ' . $car['model']); ?>"
-    class="car-image">
+    <img
+        src="<?php echo htmlspecialchars($car['image'] ?: 'default-car.jpg'); ?>"
+        alt="<?php echo htmlspecialchars($car['brand'] . ' ' . $car['model']); ?>"
+        class="car-image"
+    >
 
-
-                <img
-                   src="uploads/<?php echo htmlspecialchars($car['image'] ?? 'default-car.jpg'); ?>"
-                        alt="<?php echo htmlspecialchars($car['car_name']); ?>"
-                    >
-
-                    <div class="car-info">
+    <div class="car-info">
 
                         <h3>
                             <?php echo htmlspecialchars($car['brand'] . ' ' . $car['model']); ?>

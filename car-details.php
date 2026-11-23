@@ -32,7 +32,8 @@ if (!$car) {
     <div class="details-card">
 
         <img
-            src="uploads/<?php echo htmlspecialchars($car['image'] ?? 'default-car.jpg'); ?>"
+        <img
+    src="<?php echo htmlspecialchars($car['image'] ?? 'default-car.jpg'); ?>"
             alt="Car image"
         >
 
